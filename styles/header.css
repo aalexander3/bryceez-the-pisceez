@@ -25,5 +25,17 @@ header {
 @media (min-width: 320px) and (max-width: 480px) {
   div.countdown {
     flex-direction: column;
+    align-items: center;
   }
+
+  .countdown h1 {
+    width: 90%;
+    font-size: 5vh;
+  }
+
+  .countdown h3 {
+    width: 90%;
+    font-size: 3vh;
+  }
+
 }

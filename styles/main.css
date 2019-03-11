@@ -28,3 +28,29 @@ main {
   margin-left: 2vw;
   font-size: 3vh;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .bbb {
+    flex-direction: row;
+    padding-left: 2vh;
+    width: 90%;
+  }
+
+  .party-info {
+    padding-left: 2vh;
+    width: 90%;
+  }
+
+  .party-info div p {
+    font-size: 2.5vh;
+  }
+
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+
+  main h1 {
+    font-size: 3vh;
+  }
+}

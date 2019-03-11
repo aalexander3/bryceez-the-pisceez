@@ -28,12 +28,12 @@ const generateNewBryce = () => {
   img.className = `zooming-bryce spin-${direction}`
   img.src = getRandomBryce()
   img.style.height = `${bryceSize}vh`
-  img.style.bottom = Math.random() * 800
+  img.style.bottom = Math.random() * (window.screen.height-200)
   img.style.right = Math.random() * window.screen.width
   document.body.append(img)
 }
 
-// let bryceInt = setInterval(generateNewBryce, 1500)
-// setTimeout(()=>{
-//   clearInterval(bryceInt)
-// }, 20000)
+let bryceInt = setInterval(generateNewBryce, 1500)
+setTimeout(()=>{
+  clearInterval(bryceInt)
+}, 20000)
