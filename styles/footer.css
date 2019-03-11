@@ -1,0 +1,33 @@
+footer {
+  position: sticky;
+  background-color: black;
+  color: white;
+  height: 10vh;
+  width: 100vw;
+  bottom: 0;
+  opacity: .8;
+}
+
+.more-info {
+  padding: 2vh;
+  background: white;
+  margin-bottom: 8vh;
+}
+
+.more-info img {
+  height: auto;
+  width: 80vw;
+}
+
+.footer-text {
+  padding-left: 2vw;
+  font-family: 'Bungee Shade', arial, sans-serif;
+  font-size: 4vw;
+  color: white;
+  text-decoration: none;
+  transition: color .4s linear;
+}
+
+.footer-text:hover {
+  color: cyan;
+}

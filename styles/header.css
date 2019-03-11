@@ -1,0 +1,29 @@
+header {
+  padding: 2vw;
+  background: white;
+  opacity: .8;
+  width: 96vw;
+}
+
+.countdown h1 {
+  font-size: 8vw;
+  width: 66%;
+}
+
+.countdown h3 {
+  font-family: 'Bungee Shade', arial, sans-serif;
+  font-size: 3vw;
+  width: 33%;
+}
+
+.countdown {
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  div.countdown {
+    flex-direction: column;
+  }
+}

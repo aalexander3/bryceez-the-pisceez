@@ -1,0 +1,30 @@
+main {
+  padding: 2vw;
+  background: white;
+  opacity: .8;
+  display: flex;
+  height: 70vh;
+  width: 96vw;
+}
+
+.bbb {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+}
+
+.party-info {
+  width: 50%;
+}
+
+.party-info div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.party-info div p {
+  margin-left: 2vw;
+  font-size: 3vh;
+}

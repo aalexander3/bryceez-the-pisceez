@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/Bryce pizzz-01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Bungee Shade', arial, sans-serif;
+  font-size: 4vw;
+}
+
+h2, h3, h4, h5, p {
+  font-family: 'Anton', arial, sans-serif;
+}
+
+marquee {
+  font-family: 'Anton', arial, sans-serif;
+  font-size: 60px;
+}
