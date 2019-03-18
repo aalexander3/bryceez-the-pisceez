@@ -2,7 +2,7 @@
 const startCountdown = () => {
   let timer = document.querySelector('.countdown').firstElementChild
   let now = Date.now()
-  let partyTime = new Date('March 15, 2019 20:00:00')
+  let partyTime = new Date('March 13, 2020 20:00:00')
   let seconds = (partyTime - now)/1000
 
   const formatTime = () => {

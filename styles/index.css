@@ -13,6 +13,20 @@ body {
   overflow-x: hidden;
 }
 
+.fake-image {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/Bryce pizzz-01.png');
+  opacity: 0;
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
 h1 {
   font-family: 'Bungee Shade', arial, sans-serif;
   font-size: 4vw;
